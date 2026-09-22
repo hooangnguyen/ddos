@@ -1,0 +1,135 @@
+{
+    "test_count": 10,
+    "results": [
+        {
+            "email": "hoa.vu7242@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "nam.do1187@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "minh.nguyen9624@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "long.pham7500@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "long.hoang1378@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "minh.hoang8252@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "linh.vu2377@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "nam.hoang8980@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "ngoc.hoang4653@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        },
+        {
+            "email": "ngoc.tran4309@gmail.com",
+            "status_code": 500,
+            "response": {
+                "action": "CSRF-AjaxFail",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "csrfError": true,
+                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
+            }
+        }
+    ]
+}
