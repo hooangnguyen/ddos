@@ -2,28 +2,16 @@ import hashlib
 
 
 def fingerprint(result):
-
-    body = result.get(
-        "body",
-        {}
-    )
-
+    body = result.get("response") or result.get("body", {})
 
     data = {
-
-        "success":
-            body.get("success"),
-
-        "message":
-            body.get("message")
-
+        "success": body.get("success"),
+        "message": body.get("message"),
+        "action": body.get("action"),
     }
 
-
     return hashlib.sha256(
-
         str(data).encode()
-
     ).hexdigest()
 
 
@@ -32,42 +20,20 @@ def check(
     registered,
     unknown
 ):
-
     result = {
-
-        "issue":
-            False,
-
-        "details":
-            []
-
+        "issue": False,
+        "details": []
     }
 
-
-    if fingerprint(
-        registered
-    ) != fingerprint(
-        unknown
-    ):
-
+    if fingerprint(registered) != fingerprint(unknown):
         result["issue"] = True
+        result["details"].append("Response payload differs")
 
-        result["details"].append(
-            "Response khác nhau"
-        )
+    reg_body = registered.get("response") or registered.get("body", {})
+    unk_body = unknown.get("response") or unknown.get("body", {})
 
-
-    if (
-        registered["body"].get("success")
-        !=
-        unknown["body"].get("success")
-    ):
-
+    if reg_body.get("success") != unk_body.get("success"):
         result["issue"] = True
-
-        result["details"].append(
-            "Success flag khác nhau"
-        )
-
+        result["details"].append("Success flag differs")
 
     return result

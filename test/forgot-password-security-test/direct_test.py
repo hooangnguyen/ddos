@@ -16,7 +16,7 @@ LOGIN_PAGE = (
 
 
 # thay bằng email test của bạn
-TEST_EMAIL = "test@gmail.com"
+TEST_EMAIL = "hoangvn950@gmail.com"
 
 
 

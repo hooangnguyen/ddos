@@ -18,8 +18,7 @@ def analyze(results):
 
 
     for item in results:
-
-        code = item["status"]
+        code = item.get("status_code") or item.get("status", 0)
 
 
         report["status_codes"][code] = (

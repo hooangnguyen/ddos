@@ -1,135 +1,256 @@
 {
-    "test_count": 10,
+    "target": "https://shop.vinfastauto.com",
+    "endpoint": "Login-Auth0ForgotPassword",
+    "total_requests": 11,
+    "registered_email_tested": "hoangvn950@gmail.com",
+    "random_emails_count": 10,
+    "enumeration_analysis": {
+        "tested_against_registered": "hoangvn950@gmail.com",
+        "enumeration_issues_found": true,
+        "details": [
+            {
+                "email": "anh.tran9157@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "linh.vu3335@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "nam.do5578@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "anh.vu9572@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "long.nguyen8144@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "hung.hoang1958@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "tuan.le8701@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "anh.tran9926@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "linh.vu5545@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            },
+            {
+                "email": "tuan.tran0765@gmail.com",
+                "reasons": [
+                    "Response payload differs",
+                    "Success flag differs"
+                ]
+            }
+        ]
+    },
+    "rate_limit_analysis": {
+        "total": 11,
+        "status_codes": {
+            "200": 11
+        },
+        "rate_limit_detected": false
+    },
     "results": [
         {
-            "email": "hoa.vu7242@gmail.com",
-            "status_code": 500,
+            "email": "hoangvn950@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": true
+            },
+            "type": "registered"
         },
         {
-            "email": "nam.do1187@gmail.com",
-            "status_code": 500,
+            "email": "anh.tran9157@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "minh.nguyen9624@gmail.com",
-            "status_code": 500,
+            "email": "linh.vu3335@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "long.pham7500@gmail.com",
-            "status_code": 500,
+            "email": "nam.do5578@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "long.hoang1378@gmail.com",
-            "status_code": 500,
+            "email": "anh.vu9572@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "minh.hoang8252@gmail.com",
-            "status_code": 500,
+            "email": "long.nguyen8144@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "linh.vu2377@gmail.com",
-            "status_code": 500,
+            "email": "hung.hoang1958@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "nam.hoang8980@gmail.com",
-            "status_code": 500,
+            "email": "tuan.le8701@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "ngoc.hoang4653@gmail.com",
-            "status_code": 500,
+            "email": "anh.tran9926@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         },
         {
-            "email": "ngoc.tran4309@gmail.com",
-            "status_code": 500,
+            "email": "linh.vu5545@gmail.com",
+            "status_code": 200,
             "response": {
-                "action": "CSRF-AjaxFail",
+                "action": "Login-Auth0ForgotPassword",
                 "queryString": "",
                 "querystring": {},
                 "locale": "vi_VN",
                 "language": "vi",
-                "csrfError": true,
-                "redirectUrl": "/on/demandware.store/Sites-app_vinfast_vn-Site/vi_VN/CSRF-Fail"
-            }
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
+        },
+        {
+            "email": "tuan.tran0765@gmail.com",
+            "status_code": 200,
+            "response": {
+                "action": "Login-Auth0ForgotPassword",
+                "queryString": "",
+                "querystring": {},
+                "locale": "vi_VN",
+                "language": "vi",
+                "tracking_consent": null,
+                "success": false,
+                "message": "Email chưa đăng ký tài khoản"
+            },
+            "type": "random_unregistered"
         }
     ]
 }
